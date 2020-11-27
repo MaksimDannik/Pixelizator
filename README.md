@@ -7,5 +7,5 @@ Build the project with `mvn clean package` command.
 ## Installation
 Run the project with `mvn tomcat7:run` command.
 
-![alt text](https://github.com//mdannyk/Desktop/Pixelizator/src/main/webapp/img/Pix.jpg)
+![alt text](https://github.com/MaksimDannik/Pixelizator/blob/master/src/main/webapp/img/Pix.jpg)
 

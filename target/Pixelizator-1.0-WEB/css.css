@@ -1,0 +1,121 @@
+body {
+
+    background-image: url("img/css-fon.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.box-image{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+}
+
+.brd {
+    font-size: 5em;
+}
+
+
+
+.all-text{
+    display: flex; /*  выравнивание */
+    flex-direction: column;/*  выравнивание колонки */
+    justify-content: space-between;
+    height: 50px; /* 70*/
+    font-size: 1.8em;
+
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*width: 10em;*/
+    padding-left: 110px;
+}
+
+
+.colorChoose,  #fileUploader{
+    color: #ffb825;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+
+/*.BOX[type="file"] {*/
+/*    display: none;*/
+/*}*/
+
+
+
+
+.center {
+    color: #ffb825;
+    font-size: 1.3em;
+    margin-top: 110px;
+
+}
+
+#fileUploader{
+    font-family: 'Gloria Hallelujah', cursive;
+    background: linear-gradient(#881a1a, #d43a3a);
+}
+
+/*input[type="file"] {*/
+/*    display: none;*/
+/*}*/
+
+/*#custom-file-upload{*/
+/*    border: 1px solid #a71313;*/
+/*    display: inline-block;*/
+/*    padding: 6px 12px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+button, #types, #custom-file-upload{
+    font-size: 0.4em;
+    font-family: 'Gloria Hallelujah', cursive;
+
+    position: relative;
+    display: inline-block;
+    width: 6em;
+    height: 2.5em;
+    line-height: 2.4em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    color: #000;
+    outline: none;
+    border-top-color: rgba(195, 7, 7, 0.3);
+    border-radius: 5px;
+    background: linear-gradient(#881a1a, #d43a3a);
+}
+
+/*button:hover{*/
+/*    background: linear-gradient(#881a1a, #d43a3a);*/
+/*}*/
+button:active, #custom-file-upload{
+    line-height: 2.6em;
+    background: linear-gradient(#eaad14, #a26e11 20%, #cd832f);
+    box-shadow: 0 -1px rgb(219, 108, 18) inset;
+}
+
+button:before{
+    content: "";
+    position: absolute;
+    top: -10px; right: -10px; bottom: -10px; left: -10px;
+    z-index: -1;
+    border-radius: 8px;
+    background: linear-gradient(rgba(96, 0, 0, 0.5), rgb(193, 105, 42));
+}
+
+#pixSize {
+    font-size: 0.4em;
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #ffb825;
+    color: darkred;
+    padding-left: 5px;
+
+}
+#pixSize:hover, #pixSize:active, #pixSize:focus {
+    outline: none;
+
+}

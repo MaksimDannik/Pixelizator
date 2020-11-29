@@ -1,4 +1,4 @@
-package Picture;
+package world.ucode.Picture;
 
 public class Picture {
     private String imageForOutput;

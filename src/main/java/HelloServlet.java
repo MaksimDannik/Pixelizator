@@ -1,4 +1,4 @@
-import Picture.Picture;
+import world.ucode.Picture.Picture;
 import com.google.gson.Gson;
 import org.apache.commons.codec.binary.Base64;
 
